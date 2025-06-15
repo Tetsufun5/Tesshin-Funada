@@ -68,8 +68,8 @@ html {
 body {
     background-color: #ffffff;
     color: #000;
-    font-family: "Futo Go B101";
-    font-size: 12px;
+    font-family: "dnp-shuei-gothic-gin-std", sans-serif;
+    font-size: 13px;
     font-weight: 400;
     line-height: 1.8;
     letter-spacing: 0.1em;
@@ -93,12 +93,13 @@ img {
 }
 
 a {
-    color: #1eff00 !important;
     text-decoration: none;
+    text-decoration: underline !important;
 }
 @media (any-hover: hover) {
     a:hover {
-        text-decoration: underline;
+        color: #1eff00 !important;
+        text-decoration: none;
     }
 }
 
