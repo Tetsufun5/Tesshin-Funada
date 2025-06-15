@@ -68,7 +68,7 @@ html {
 body {
     background-color: #ffffff;
     color: #000;
-    font-family: "Futo Go B101 JIS2004 AP";
+    font-family: "Futo Go B101";
     font-size: 13px;
     font-weight: 400;
     line-height: 1.8;
@@ -101,6 +101,12 @@ a {
         color: #1eff00 !important;
         text-decoration: none !important;
     }
+}
+
+.row {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /*---------------------Title-------------------------------- */
@@ -141,4 +147,12 @@ Hero
 
 .hero__Inner--genre {
     padding-top: 5px;
+}
+
+/*-------------------------------------------------------------
+Designs
+-------------------------------------------------------------*/
+
+.designs {
+    margin-top: 80px;
 }
