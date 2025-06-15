@@ -95,12 +95,12 @@ img {
 
 a {
     text-decoration: none;
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 @media (any-hover: hover) {
     a:hover {
         color: #1eff00 !important;
-        text-decoration: none !important;
+        text-decoration: underline !important;
     }
 }
 
