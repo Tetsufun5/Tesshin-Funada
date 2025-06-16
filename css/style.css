@@ -139,9 +139,9 @@ Header
 }
 
 .openbtn {
+    position: absolute;
     position: fixed;
     display: block;
-    position: absolute;
     top: 10px;
     right: 10px;
     padding: 0 6px 0 6px;
@@ -168,6 +168,7 @@ Header
 	opacity: 0;
     width: calc(100% * 1 / 2);
     background-color: #ffffff;
+    height: 100vh;
 }
 
 .gnav.panelactive {
@@ -185,13 +186,28 @@ Hero
     justify-content: space-between;
 }
 
+.heroUnder {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroUnder__Left {
+    width: calc(100% * 2 / 3);
+}
+
+.heroUnder__Right {
+    padding: 0 30px 0 30px;
+    width: calc(100% * 1 / 3);
+}
+
 .hero__Inner--Title {
     margin-bottom: 30px;
 }
 
 /*-----------------Hero-下層ページ用-------------------------- */
 
-.hero__Inner--Home {
+.heroUnder__Inner--Home {
     margin-top: 30px;
 }
 
@@ -255,6 +271,22 @@ Designs
     text-align: right;
     bottom: 1px;
     right: 3px;
+}
+
+/*-----------------Designs-下層ページ用----------------------- */
+
+.designsUnder {
+    display: flex;
+    padding: 80px 0 80px 0;
+}
+
+.designsUnder__Left {
+    width: calc(100% * 2 / 3);
+}
+
+.designsUnder__Right {
+    width: calc(100% * 1 / 3);
+    padding: 0 30px 0 30px;
 }
 
 /*-------------------------------------------------------------
