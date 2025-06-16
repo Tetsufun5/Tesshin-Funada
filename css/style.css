@@ -161,6 +161,43 @@ Designs
     padding: 80px 0 80px 0;
 }
 
+.designs__Hov {
+    position: relative;
+}
+
+.designs__HovInner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: -1;
+}
+
+.designs__HovInner:hover {
+    opacity: 2;
+}
+
+.designs__HovInnerTex {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.designs__HovInnerTexTit {
+    position: absolute;
+    text-align: left;
+    top: 1px;
+    left: 3px;
+}
+
+.designs__HovInnerTexGen {
+    position: absolute;
+    text-align: right;
+    bottom: 1px;
+    right: 3px;
+}
+
 /*-------------------------------------------------------------
 Footer
 -------------------------------------------------------------*/
