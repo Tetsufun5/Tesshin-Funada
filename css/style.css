@@ -199,6 +199,11 @@ Hero
 
 .heroUnder__Left {
     width: calc(100% * 2 / 3);
+    display: flex;
+}
+
+.heroUnder__Center {
+    padding-left: 80px;
 }
 
 .heroUnder__Right {
