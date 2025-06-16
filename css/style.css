@@ -130,6 +130,11 @@ a {
 .h2 {
     font-weight: 600;
 }
+
+.underline {
+    text-decoration: underline;
+}
+
 /*-------------------------------------------------------------
 Header
 -------------------------------------------------------------*/
@@ -187,7 +192,7 @@ Hero
 }
 
 .heroUnder {
-    padding-top: 70px;
+    padding: 70px 0 80px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -277,11 +282,20 @@ Designs
 
 .designsUnder {
     display: flex;
-    padding: 80px 0 80px 0;
+    padding-bottom: 30px;
 }
 
 .designsUnder__Left {
     width: calc(100% * 2 / 3);
+    background-color: #dbdcdc;
+    position: relative;
+}
+
+.designsUnder__Left--Text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .designsUnder__Right {
