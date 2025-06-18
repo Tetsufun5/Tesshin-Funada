@@ -120,6 +120,16 @@ a {
     text-decoration: underline !important;
 }
 
+/*------------------------responsive Phone------------------ */
+
+@media  screen and (max-width: 767px) {
+    .row {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 /*---------------------Title-------------------------------- */
 
 .h1 {
@@ -181,6 +191,15 @@ Header
     z-index: 998;
 }
 
+/*------------------------responsive Phone------------------ */
+
+@media  screen and (max-width: 767px) {
+    .gnav {
+        padding:70px 40px 70px 40px;
+        width: 100%;
+    }
+}
+
 /*-------------------------------------------------------------
 Hero
 -------------------------------------------------------------*/
@@ -215,6 +234,15 @@ Hero
     margin-bottom: 30px;
 }
 
+/*------------------------responsive Phone------------------ */
+
+@media  screen and (max-width: 767px) {
+    .hero {
+        padding-top: 30px;
+        display: block;
+    }
+}
+
 /*-----------------Hero-下層ページ用-------------------------- */
 
 .heroUnder__Inner--Home {
@@ -232,10 +260,26 @@ Hero
     margin-right: 20px;
 }
 
+/*------------------------responsive Phone------------------ */
+
+@media  screen and (max-width: 767px) {
+    .hero__Inner--menu {
+        display: none;
+    }
+}
+
 /*---------------------Genre-------------------------------- */
 
 .hero__Inner--genre {
     padding-top: 5px;
+}
+
+/*------------------------responsive Phone------------------ */
+
+@media  screen and (max-width: 767px) {
+    .hero__Inner--genre {
+        display: none;
+    }
 }
 
 /*-------------------------------------------------------------
@@ -283,6 +327,18 @@ Designs
     right: 3px;
 }
 
+/*------------------------responsive Phone------------------ */
+
+@media  screen and (max-width: 767px) {
+    .designs {
+        padding: 30px 0 30px 0;
+}
+
+    .designs__HovInner:hover {
+        opacity: 0;
+}
+}
+
 /*-----------------Designs-下層ページ用----------------------- */
 
 .designsUnder {
@@ -316,4 +372,16 @@ Footer
     margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
+}
+
+.copyright {
+    font-size: clamp(0.625rem, 0.5rem + 0.63vw, 1.25rem);
+}
+
+/*------------------------responsive Phone------------------ */
+
+@media  screen and (max-width: 767px) {
+    .footer {
+        margin-bottom: 30px;
+    }
 }
