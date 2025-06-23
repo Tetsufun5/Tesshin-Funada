@@ -415,7 +415,6 @@ Designs
     display: flex;
     flex-flow: column;
     padding-bottom: 10px;
-    flex-direction: column-reverse;
     }
 
     .designsUnder__Left {
