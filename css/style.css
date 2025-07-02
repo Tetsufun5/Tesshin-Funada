@@ -388,10 +388,11 @@ Designs
 .designsUnder {
     display: flex;
     padding-bottom: 30px;
+    justify-content: space-between;
 }
 
 .designsUnder__Left {
-    width: calc(100% * 2 / 3);
+    width: 55%;
     background-color: #dbdcdc;
     position: relative;
 }
