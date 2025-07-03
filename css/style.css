@@ -141,10 +141,6 @@ a {
     font-weight: 600;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
 /*-------------------------------------------------------------
 Header
 -------------------------------------------------------------*/
@@ -396,6 +392,11 @@ Designs
     position: relative;
 }
 
+.designsUnder__Leftvideo video {
+    display: block;
+    width: 50%;
+}
+
 .designsUnder__Left--Text {
     position: absolute;
     top: 50%;
@@ -419,6 +420,15 @@ Designs
 
     .designsUnder__Left {
     background-color: #ffffff;
+    width: 100%;
+    }
+
+    .designsUnder__Leftvideo video {
+    display: block;
+    width: 100%;
+    }
+
+    .designsUnder__Leftvideo {
     width: 100%;
     }
 
