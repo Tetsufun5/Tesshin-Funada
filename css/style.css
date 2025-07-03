@@ -391,7 +391,7 @@ Designs
 }
 
 .designsUnder__Left {
-    width: calc(100 * 1 / 3);
+    width: calc(100% * 1 / 3);
     background-color: #dbdcdc;
     position: relative;
 }
