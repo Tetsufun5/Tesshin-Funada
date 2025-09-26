@@ -221,6 +221,17 @@ Header
 }
 
 @media  screen and (max-width: 767px) {
+    .openbtn:hover {
+    color: #ffffff;
+    border: solid 1px #000;
+    background-color: #000;
+}
+
+    .Homeopenbtn:hover {
+    color: #ffffff;
+    border: solid 1px #000;
+    background-color: #000;
+}
     .gnav {
         padding:70px 40px 70px 40px;
         width: 100%;
