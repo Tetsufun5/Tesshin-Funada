@@ -164,12 +164,6 @@ Header
     z-index: 999;
 }
 
-.openbtn:hover {
-    color: #ffffff;
-    border: solid 1px #000;
-    background-color: #000;
-}
-
 .Homeopenbtn {
     position: absolute;
     position: fixed;
@@ -181,12 +175,6 @@ Header
     border-radius: 999px;
     background-color: #ffffff;
     z-index: 999;
-}
-
-.Homeopenbtn:hover {
-    color: #ffffff;
-    border: solid 1px #000;
-    background-color: #000;
 }
 
 .gnav {
