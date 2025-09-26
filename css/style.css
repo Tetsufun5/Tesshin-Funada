@@ -164,6 +164,12 @@ Header
     z-index: 999;
 }
 
+.openbtn:hover {
+    color: #ffffff;
+    border: solid 1px #000;
+    background-color: #000;
+}
+
 .Homeopenbtn {
     position: absolute;
     position: fixed;
@@ -177,7 +183,7 @@ Header
     z-index: 999;
 }
 
-.openbtn:hover {
+.Homeopenbtn:hover {
     color: #ffffff;
     border: solid 1px #000;
     background-color: #000;
