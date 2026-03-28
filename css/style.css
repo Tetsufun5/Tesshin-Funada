@@ -102,7 +102,7 @@ a {
 @media (any-hover: hover) {
     a:hover {
         color: #000 !important;
-        text-decoration: underline !important;
+        text-decoration: none !important;
         transition: 0.3s;
     }
 }
@@ -172,9 +172,9 @@ Header
     top: 10px;
     right: 10px;
     padding: 0 6px 0 6px;
-    border-radius: 999px;
     background-color: #ffffff;
     z-index: 999;
+    transition: 0.3s;
 }
 
 .gnav {
@@ -216,9 +216,8 @@ Header
 }
 
     .Homeopenbtn:hover {
-    color: #ffffff;
-    border: solid 1px #000;
-    background-color: #000;
+    color: #a5a5a5;
+    transition: 0.3s;
 }
     .gnav {
         padding:70px 40px 70px 40px;
@@ -234,6 +233,15 @@ Hero
     padding-top: 70px;
     display: flex;
     justify-content: space-between;
+}
+
+.hero__Inner--text a {
+    transition: 0.3s;
+}
+
+.hero__Inner--text a:hover {
+    color: #a5a5a5 !important;
+    transition: 0.3s;
 }
 
 /*------------------------responsive Phone------------------ */
