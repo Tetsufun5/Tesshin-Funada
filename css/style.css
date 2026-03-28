@@ -195,6 +195,15 @@ Header
     color: #a5a5a5
 }
 
+.gnavLi_last a {
+    transition: 0.3s;
+}
+
+.gnavLi_last a:hover {
+    color: #a5a5a5 !important;
+    transition: 0.3s;
+}
+
 .gnav.panelactive {
     opacity: 1;
     z-index: 998;
@@ -240,6 +249,15 @@ Hero
 }
 
 .hero__Inner--text a:hover {
+    color: #a5a5a5 !important;
+    transition: 0.3s;
+}
+
+.hero__Inner--Title a {
+    transition: 0.3s;
+}
+
+.hero__Inner--Title a:hover {
     color: #a5a5a5 !important;
     transition: 0.3s;
 }
