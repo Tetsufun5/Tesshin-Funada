@@ -312,6 +312,15 @@ Hero
     margin-bottom: 30px;
 }
 
+.onlinehere {
+    transition: 0.3s;
+}
+
+.onlinehere:hover {
+    transition: 0.3s;
+    color: #a5a5a5 !important;
+}
+
 /*------------------------responsive Phone------------------ */
 
 @media  screen and (max-width: 767px) {
