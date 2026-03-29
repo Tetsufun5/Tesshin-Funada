@@ -312,11 +312,11 @@ Hero
     margin-bottom: 30px;
 }
 
-.onlinehere {
+.onlinehere a {
     transition: 0.3s;
 }
 
-.onlinehere:hover {
+.onlinehere a:hover {
     transition: 0.3s;
     color: #a5a5a5 !important;
 }
